@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: blueviolet;
+  border: 1px solid blue;
+  width: 30%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.animal-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
