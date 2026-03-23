@@ -10,15 +10,14 @@ function App() {
   const [response, setResponse] = useState([])
 
   useEffect(() => {
-    async function  onLoad () {
+    async function onLoad() {
       const res = await fetchUnsplashData(value)
-    console.log("ok", res);
-    setResponse(res)
+      setResponse(res)
     }
     onLoad();
   }, [value])
 
-  function onSubmit(term){
+  function onSubmit(term) {
     setValue(term)
   }
 
